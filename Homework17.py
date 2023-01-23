@@ -23,7 +23,7 @@ if not is_int(sequence_numbers):
 else:
     sequence_numbers = sequence_numbers.split()
 
-#Меняем список строк на список чисел
+#Изменяется список строк на список чисел
 
 list_sequence_numbers = [int(item) for item in sequence_numbers]
 
